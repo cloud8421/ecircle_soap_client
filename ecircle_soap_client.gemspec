@@ -66,7 +66,7 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<cheat>, [">= 0"])
     else
       s.add_dependency(%q<rake>, ["= 0.8.7"])
-      s.add_dependency(%q<savon>, [">= 0"])
+      s.add_dependency(%q<savon>, ["= 0.9.7"])
       s.add_dependency(%q<nokogiri>, [">= 0"])
       s.add_dependency(%q<multipart-post>, [">= 0"])
       s.add_dependency(%q<uuidtools>, [">= 0"])
@@ -82,7 +82,7 @@ Gem::Specification.new do |s|
     end
   else
     s.add_dependency(%q<rake>, ["= 0.8.7"])
-    s.add_dependency(%q<savon>, [">= 0"])
+    s.add_dependency(%q<savon>, ["= 0.9.7"])
     s.add_dependency(%q<nokogiri>, [">= 0"])
     s.add_dependency(%q<multipart-post>, [">= 0"])
     s.add_dependency(%q<uuidtools>, [">= 0"])
