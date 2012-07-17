@@ -1,11 +1,7 @@
 # -*- mode: ruby -*-
 source "http://rubygems.org"
 
-gem 'rake'
-gem 'savon'
-gem 'nokogiri'
 gem 'multipart-post', :git => 'git://github.com/gorenje/multipart-post.git'
-gem 'uuidtools'
 
 group :development do
   gem 'pry'
