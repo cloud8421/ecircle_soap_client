@@ -46,55 +46,19 @@ Gem::Specification.new do |s|
   s.rubygems_version = "1.8.10"
   s.summary = "Ecircle SOAP client for synchron API"
 
-  if s.respond_to? :specification_version then
-    s.specification_version = 3
-
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<rake>, [">= 0"])
-      s.add_runtime_dependency(%q<savon>, ["= 0.9.7"])
-      s.add_runtime_dependency(%q<nokogiri>, [">= 0"])
-      s.add_runtime_dependency(%q<multipart-post>, [">= 0"])
-      s.add_runtime_dependency(%q<uuidtools>, [">= 0"])
-      s.add_development_dependency(%q<pry>, [">= 0"])
-      s.add_development_dependency(%q<pry-doc>, [">= 0"])
-      s.add_development_dependency(%q<gist>, [">= 0"])
-      s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
-      s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
-      s.add_development_dependency(%q<jeweler>, ["~> 1.6.4"])
-      s.add_development_dependency(%q<rcov>, [">= 0"])
-      s.add_development_dependency(%q<rr>, [">= 0"])
-      s.add_development_dependency(%q<cheat>, [">= 0"])
-    else
-      s.add_dependency(%q<rake>, ["= 0.8.7"])
-      s.add_dependency(%q<savon>, ["= 0.9.7"])
-      s.add_dependency(%q<nokogiri>, [">= 0"])
-      s.add_dependency(%q<multipart-post>, [">= 0"])
-      s.add_dependency(%q<uuidtools>, [">= 0"])
-      s.add_dependency(%q<pry>, [">= 0"])
-      s.add_dependency(%q<pry-doc>, [">= 0"])
-      s.add_dependency(%q<gist>, [">= 0"])
-      s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
-      s.add_dependency(%q<bundler>, ["~> 1.0.0"])
-      s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
-      s.add_dependency(%q<rcov>, [">= 0"])
-      s.add_dependency(%q<rr>, [">= 0"])
-      s.add_dependency(%q<cheat>, [">= 0"])
-    end
-  else
-    s.add_dependency(%q<rake>, ["= 0.8.7"])
-    s.add_dependency(%q<savon>, ["= 0.9.7"])
-    s.add_dependency(%q<nokogiri>, [">= 0"])
-    s.add_dependency(%q<multipart-post>, [">= 0"])
-    s.add_dependency(%q<uuidtools>, [">= 0"])
-    s.add_dependency(%q<pry>, [">= 0"])
-    s.add_dependency(%q<pry-doc>, [">= 0"])
-    s.add_dependency(%q<gist>, [">= 0"])
-    s.add_dependency(%q<thoughtbot-shoulda>, [">= 0"])
-    s.add_dependency(%q<bundler>, ["~> 1.0.0"])
-    s.add_dependency(%q<jeweler>, ["~> 1.6.4"])
-    s.add_dependency(%q<rcov>, [">= 0"])
-    s.add_dependency(%q<rr>, [">= 0"])
-    s.add_dependency(%q<cheat>, [">= 0"])
-  end
+  s.add_runtime_dependency(%q<rake>, [">= 0"])
+  s.add_runtime_dependency(%q<savon>, ["= 0.9.7"])
+  s.add_runtime_dependency(%q<nokogiri>, [">= 0"])
+  s.add_runtime_dependency(%q<multipart-post>, [">= 0"])
+  s.add_runtime_dependency(%q<uuidtools>, [">= 0"])
+  s.add_development_dependency(%q<pry>, [">= 0"])
+  s.add_development_dependency(%q<pry-doc>, [">= 0"])
+  s.add_development_dependency(%q<gist>, [">= 0"])
+  s.add_development_dependency(%q<thoughtbot-shoulda>, [">= 0"])
+  s.add_development_dependency(%q<bundler>, ["~> 1.0.0"])
+  s.add_development_dependency(%q<jeweler>, ["~> 1.6.4"])
+  s.add_development_dependency(%q<rcov>, [">= 0"])
+  s.add_development_dependency(%q<rr>, [">= 0"])
+  s.add_development_dependency(%q<cheat>, [">= 0"])
 end
 
